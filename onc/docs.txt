@@ -1,0 +1,69 @@
+I've witnessed a lot of discussions over my time on Wattpad related to its ranking system; how it works, what factors it depends on or why it appears to make no sense sometimes.
+
+Genuinely, I have no idea, and I don't think anyone has a proper one either. Of course, its fair to make a guess that it would depend on things like votes, comments and views since those are
+arguably the most important statistics on the platform, but we can't know how these factors are interpreted to come to a number that determines where your story ranks.
+
+So, I decided to make my own ranking system. And I'll explain every step of the way so you know how I came to this.
+
+GENRES AKA CATEGORIES
+3.0,Fantasy
+19.0,Random
+4.0,Romance
+5.0,Science Fiction
+7.0,Humor
+12.0,Paranormal
+8.0,Mystery / Thriller
+9.0,Horror
+11.0,Adventure
+23.0,Historical Fiction
+1.0,Teen Fiction
+6.0,Fanfiction
+2.0,Poetry
+17.0,Short Story
+21.0,General Fiction
+24.0,ChickLit
+14.0,Action
+18.0,Vampire
+22.0,Werewolf
+13.0,Spiritual
+16.0,Non-Fiction
+10.0,Classics
+
+
+V3-STORIES/users
+V4-
+V5-HOTLIST
+
+FETCH STORIES FROM A USER
+https://www.wattpad.com/v4/users/USERNAME/stories/published?limit=100
+
+FETCH STORIES BY TAG
+https://www.wattpad.com/api/v3/stories?query=romance
+
+https://www.wattpad.com/api/v3/stories?query=romance&limit=10
+
+
+FETCH SPECIFIED NUMBER OF STORIES
+https://www.wattpad.com/api/v3/stories?limit=5
+
+GET READING LISTS FOR A USER
+https://www.wattpad.com/api/v3/users/adretaRyder/lists
+
+CHECK IF STORY IS IN CURRENT USSER'S READING LISTS
+https://www.wattpad.com/v4/stories/collections?storyIds=STORYID
+
+
+THE FUCKING RANKS 
+https://www.wattpad.com/v5/hotlist?tags=TAGNAME
+https://www.wattpad.com/v5/discover/tags?tags=death
+
+
+????
+https://www.wattpad.com/v5/browse/topics?language=1&fields=topics(name%2CcategoryID%2CbrowseURL%2CtagURL)
+
+RECOMMENDED STORIES FROM A STORY
+https://www.wattpad.com/api/v3/stories/11070537/recommended?limit=10
+https://www.wattpad.com/v5/discover/tags/adventure
+
+FIND WHERE YOU STOPPED IN A STORY
+https://www.wattpad.com/apiv2/syncreadingposition?story_id=STORY ID
